@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .w-fit{
+    width: fit-content;
+
+  }
+ .navbar-brand{
+  border: transparent;
+  border-color: transparent;
+ }
+ .nav-link{
+  color: black;
+ }
+ .nav-link:hover{
+  color: gold;
+ }
+/* about part */
+.about-container {
+    padding: 50px 0;
+  }
+  .about-image {
+     border-radius: 30%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+  }
+  .about-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .about-text p {
+    font-size: 1.2rem;
+  }
+  /* about part ends here */
+
+  /* skills section */
+
+.skills-heading{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 18px;
+}
+
+
+
+.section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    flex: 1 1 calc(33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill img {
+    width: 192px;
+    height: 106px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease; 
+}
+.skill img:hover{
+  transform: scale(1.2); 
+
+}
+/* skills section ends */
+/* projects  */
+.p-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.p-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project{
+    flex: 1 1 calc(33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project img {
+    width: 192px;
+    height: 106px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease; 
+
+}
+.project img:hover{
+  
+    transform: scale(1.2); 
+  
+  }
+
+/* projects ends here */
+/* contact */
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-item{
+  display: flex ;
+      align-items: center;
+      justify-content: center;
+      padding: 13px;
+      
+}
+.contact-item a {
+  color: black;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  justify-items: center;
+}
+
+.icons a {
+  font-size: x-large;
+  color: black;
+  transition: all 0.3s ease; 
+}
+
+.icons a:hover {
+  transform: scale(1.2); 
+  color: gold; 
+}
+
+
+
+
+/* footer */
+
+.footer-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  height: 45px;
+  box-sizing: border-box;
+
+}
